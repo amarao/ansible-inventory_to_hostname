@@ -1,0 +1,4 @@
+---
+# tasks file for inventory-to-hostname
+- name: Set hostname to inventory name
+  hostname: name={{inventory_hostname_short}}
